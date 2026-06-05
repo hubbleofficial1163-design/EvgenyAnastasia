@@ -1098,3 +1098,65 @@ label,
 .rsvp-input:focus {
     outline: none;
 }
+
+
+.details-contacts {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.details-contacts .details-text {
+    margin-bottom: 0;
+}
+
+.details-contact-link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+    line-height: 1.3;
+}
+
+.details-contact-link:active {
+    opacity: 0.6;
+}
+
+@media (min-width: 768px) {
+    .details-contact-link {
+        font-size: 20px;
+    }
+}
+
+.details-chat-button {
+    display: inline-block;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 16px 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    text-decoration: none;
+}
+
+.details-chat-button:hover {
+    opacity: 0.8;
+}
+
+@media (min-width: 768px) {
+    .details-chat-button {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
+}
