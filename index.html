@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Свадебное приглашение | Евгений и Анастасия</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Love+Light&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100;14..32,200;14..32,300;14..32,400;14..32,600&family=Love+Light&family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dynalight&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <!-- Нулевая секция - Обложка -->
+    <!-- Нулевая секция - Обложка -->
+    <section class="cover-section" id="coverSection">
+        <div class="cover-container">
+            <div class="cover-subtitle">Wedding day...</div>
+            <!-- <div class="cover-title">Приглашение</div> -->
+            <button class="cover-button" id="openInvitationBtn">Открыть</button>
+        </div>
+    </section>
+
+    <!-- Hero секция -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="1.jpg" alt="Евгений и Анастасия">
+            </div>
+            <p class="hero-invite-text">Приглашаем вас на торжество,<br>посвященное нашему бракосочетанию!</p>
+            <p class="hero-date-text">11 июля 2026 года</p>
+            <p class="hero-couple-name">Евгений и Анастасия</p>
+        </div>
+    </section>
+
+
+
+    <!-- Вторая секция -->
+    <section class="guests-section">
+        <div class="guests-container">
+            <h2 class="guests-title">Дорогие гости!</h2>
+            <p class="guests-text">В нашей жизни предстоят счастливые перемены! Мы хотим, чтобы в этот день рядом с нами были самые близкие и дорогие для нас люди. Будем рады разделить с вами чудесный праздник в день нашей свадьбы.</p>
+        </div>
+        
+    </section>
+
+    <!-- Декоративная линия -->
+    <div class="divider"></div>
+
+
+        <!-- Третья секция - Таймер -->
+    <section class="timer-section">
+        <div class="timer-container">
+            <h2 class="timer-title">До свадьбы осталось:</h2>
+            <div class="timer" id="timer">
+                <div class="timer-block">
+                    <span class="timer-number" id="days">00</span>
+                    <span class="timer-label">дней</span>
+                </div>
+                <div class="timer-block">
+                    <span class="timer-number" id="hours">00</span>
+                    <span class="timer-label">часов</span>
+                </div>
+                <div class="timer-block">
+                    <span class="timer-number" id="minutes">00</span>
+                    <span class="timer-label">минут</span>
+                </div>
+                <div class="timer-block">
+                    <span class="timer-number" id="seconds">00</span>
+                    <span class="timer-label">секунд</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Элемент ~ после секции -->
+    <div class="tilde">~</div>
+
+
+        <!-- Четвертая секция - Программа дня -->
+    <section class="program-section">
+        <div class="program-container">
+            <h2 class="program-title">Программа дня</h2>
+            
+            <div class="program-item">
+                <div class="program-photo">
+                    <img src="1.webp" alt="Фото 1">
+                </div>
+                <div class="program-info">
+                    <div class="program-time">15:00</div>
+                    <div class="program-event">Сбор гостей</div>
+                    <div class="program-description">Просим взять с собой хорошее настроение и свои улыбки</div>
+                </div>
+            </div>
+            
+            <div class="program-item">
+                <div class="program-photo">
+                    <img src="2.webp" alt="Фото 2">
+                </div>
+                <div class="program-info">
+                    <div class="program-time">16:00</div>
+                    <div class="program-event">Выездная регистрация</div>
+                    <div class="program-description">На всякий случай приготовьте носовые платочки для трогательного момента</div>
+                </div>
+            </div>
+
+
+            <div class="program-item">
+                <div class="program-photo">
+                    <img src="3.webp" alt="Фото 2">
+                </div>
+                <div class="program-info">
+                    <div class="program-time">17:00</div>
+                    <div class="program-event">Свадебный банкет</div>
+                    <div class="program-description">Время вкусной еды, танцев и развлечений</div>
+                </div>
+            </div>
+
+
+            <div class="program-item">
+                <div class="program-photo">
+                    <img src="4.webp" alt="Фото 2">
+                </div>
+                <div class="program-info">
+                    <div class="program-time">23:00</div>
+                    <div class="program-event">Окончание вечера</div>
+                    <div class="program-description">К сожалению, даже такой прекрасный вечер может закончится</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="tilde">~</div>
+
+
+        <!-- Пятая секция - Локация -->
+    <section class="location-section">
+        <div class="location-container">
+            <h2 class="location-title">Локация</h2>
+            <p class="location-text">Наша свадьба пройдет на территории базы отдыха "Солнечная"</p>
+            <p class="location-address">Калужская область, Тарусский муниципальный округ, сельское поселение Волковское</p>
+            <div class="location-photo">
+                <img src="loc.jpg" alt="База отдыха Солнечная">
+            </div>
+        </div>
+    </section>
+
+
+
+        <!-- Шестая секция - Как добраться? -->
+    <section class="map-section">
+        <div class="map-container">
+            <h2 class="map-title">Как добраться?</h2>
+            <p class="map-text">Мы подготовили для вас карту, чтобы вы точно добрались и порадовали нас своим присутствием</p>
+            <div class="map-iframe">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaa494442bf27e1ead6d56e71c6a60125380b780fdbeb03da96633f959a7732d2&amp;source=constructor" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="tilde">~</div>
+
+
+    <!-- Седьмая секция - Детали -->
+    <section class="details-section">
+        <div class="details-container">
+            <h2 class="details-title">Детали</h2>
+            <p class="details-text">Ваши улыбки и смех подарят нам незабываемое счастье в этот день, а пожелания в конвертах помогут осуществить наши мечты!</p>
+            
+            <!-- Декоративная линия -->
+            <div class="details-divider"></div>
+            
+            <p class="details-note">Будем благодарны, если вы воздержитесь от криков "горько" на празднике, ведь поцелуй - это знак выражения чувств, он не может быть по заказу</p>
+        </div>
+    </section>
+
+    <div class="tilde">~</div>
+
+
+
+        <!-- Восьмая секция - Дресс-код -->
+    <section class="dresscode-section">
+        <div class="dresscode-container">
+            <h2 class="dresscode-title">Дресс-код</h2>
+            <p class="dresscode-text">Мы очень ждем и с удовольствием готовимся к нашему незабываемому дню! <br> <br> Поддержите нас вашими улыбками и объятиями, а также красивыми нарядами в палитре торжества</p>
+            <div class="dresscode-colors">
+                <div class="color-box" style="background-color: #666956;"></div>
+                <div class="color-box" style="background-color: #8d8e7c;"></div>
+                <div class="color-box" style="background-color: #b08a81;"></div>
+                <div class="color-box" style="background-color: #efbfbb;"></div>
+                <div class="color-box" style="background-color: #fee4e5;"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+        <!-- Девятая секция - Присутствие на торжестве -->
+    <section class="rsvp-section">
+        <div class="rsvp-container">
+            <h2 class="rsvp-title">Присутствие на торжестве</h2>
+            <p class="rsvp-text">Ваши ответы на вопросы очень помогут нам при организации свадьбы</p>
+            <p class="rsvp-deadline">Будем ждать ответ до 26.06.2026 г.</p>
+            
+            <!-- Вопрос 1: Радиокнопки -->
+            <div class="rsvp-question">
+                <div class="rsvp-question-title">Сможете ли вы присутствовать на торжестве</div>
+                <div class="rsvp-radio-group">
+                    <label class="rsvp-radio-label">
+                        <input type="radio" name="attendance" value="yes" class="rsvp-radio">
+                        <span>Я приду</span>
+                    </label>
+                    <label class="rsvp-radio-label">
+                        <input type="radio" name="attendance" value="no" class="rsvp-radio">
+                        <span>Прийти не получится</span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Вопрос 2: Имя Фамилия -->
+            <div class="rsvp-question">
+                <div class="rsvp-question-title">Имя Фамилия</div>
+                <input type="text" class="rsvp-input" placeholder="">
+            </div>
+            
+            <!-- Вопрос 3: Чекбоксы напитков -->
+            <div class="rsvp-question">
+                <div class="rsvp-question-title">Предпочтения по напиткам:</div>
+                <div class="rsvp-checkbox-subtitle">можно выбирать несколько вариантов</div>
+                <div class="rsvp-checkbox-group">
+                    <label class="rsvp-checkbox-label">
+                        <input type="checkbox" value="red_wine" class="rsvp-checkbox">
+                        <span>Вино красное</span>
+                    </label>
+                    <label class="rsvp-checkbox-label">
+                        <input type="checkbox" value="white_wine" class="rsvp-checkbox">
+                        <span>Вино белое</span>
+                    </label>
+                    <label class="rsvp-checkbox-label">
+                        <input type="checkbox" value="strong" class="rsvp-checkbox">
+                        <span>Коньяк, водка</span>
+                    </label>
+                    <label class="rsvp-checkbox-label">
+                        <input type="checkbox" value="champagne" class="rsvp-checkbox">
+                        <span>Шампанское</span>
+                    </label>
+                    <label class="rsvp-checkbox-label">
+                        <input type="checkbox" value="non_alcoholic" class="rsvp-checkbox">
+                        <span>Что-нибудь безалкогольное</span>
+                    </label>
+                </div>
+            </div>
+            
+            <!-- Кнопка отправки -->
+            <button class="rsvp-button">ОТПРАВИТЬ</button>
+        </div>
+    </section>
+
+
+        <!-- Десятая секция - До встречи -->
+    <section class="farewell-section">
+        <div class="farewell-container">
+            <div class="farewell-image">
+                <img src="2.jpg" alt="Евгений и Анастасия">
+            </div>
+            <h2 class="farewell-title">До встречи!</h2>
+        </div>
+    </section>
+
+<audio id="bgMusic" src="1.mp3" preload="auto"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
