@@ -1160,3 +1160,64 @@ label,
         padding: 18px 20px;
     }
 }
+
+
+.details-contact-link i {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+
+@media (max-width: 767px) {
+    .hero-container {
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+    
+    .hero-image {
+        margin-bottom: 0 !important;
+    }
+    
+    .hero-image img {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block;
+    }
+    
+
+    
+    .hero-date-text,
+    .hero-couple-name {
+        padding: 0 20px;
+    }
+    
+    .hero {
+        margin-bottom: 80px;
+        height: auto !important;
+        min-height: 0 !important;
+    }
+}
+/* Hero секция - мобильная адаптация */
+@media (max-width: 767px) {
+    /* Добавляем пустой блок перед текстом */
+    .hero-image::after {
+        content: "";
+        display: block;
+        height: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero {
+        height: auto !important;
+        min-height: 0 !important;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .hero {
+        margin-bottom: 120px;
+    }
+}
+
