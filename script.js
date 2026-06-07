@@ -279,7 +279,7 @@
     }
     
     // ========== GOOGLE SHEETS ==========
-    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwsc41gYzsbUzC3KXdQ3RHzj7k-iPDlOE-p5utIwUm_rA-YLuArd6lfqKaCPyT3p8oW/exec'; // ЗАМЕНИТЕ НА ВАШ URL
+    const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx--AtgxovUOfPnaVTbpOQhFKXjEGmpY5spFWYxcvpPiwpzcWcSd0SfCxjM_9xtFqpa/exec'; // ЗАМЕНИТЕ НА ВАШ URL
     
     // Инициализация формы RSVP
     function initRSVPForm() {
